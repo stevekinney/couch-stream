@@ -21,6 +21,8 @@ inherits(CouchStream, Writable);
 
 CouchStream.prototype._write = function (data, encoding, callback) {
   insertOrUpdate(data, this.db, function (err, res) {
+    if (err) console.log(err);
+    if (res) console.log(res);
     callback();
   });
 };
