@@ -1,0 +1,26 @@
+{
+  "name": "couch-stream",
+  "version": "0.0.0",
+  "description": "A writable-stream wrapper around Nano for stream to a CouchDB server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/stevekinney/couch-stream"
+  },
+  "keywords": [
+    "couchdb",
+    "streams"
+  ],
+  "author": "Steve Kinney",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevekinney/couch-stream/issues"
+  },
+  "dependencies": {
+    "nano": "~4.1.1",
+    "deep-equal": "0.0.0"
+  }
+}
